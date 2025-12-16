@@ -87,17 +87,16 @@ export const lessons: LessonData[] = [
       }
     ],
     phrases: [
-      { en: "What time is it?", pt: "Que horas são?" },
       { en: "It's seven fifteen.", pt: "São sete e quinze." },
       { en: "It's half past eight.", pt: "São oito e meia." },
       { en: "It's a quarter to ten.", pt: "São quinze para as dez." },
       { en: "What time do you wake up?", pt: "A que horas você acorda?" },
       { en: "I wake up at six thirty.", pt: "Eu acordo às seis e trinta." },
-      { en: "I study until nine fifteen.", pt: "Eu estudo até as nove e quinze.", note: "until = duração (até)" },
-      { en: "I have to finish this by ten o'clock.", pt: "Eu tenho que terminar isso até as dez horas.", note: "by = prazo (até)" },
+      { en: "I study until nine fifteen.", pt: "Eu estudo até as nove e quinze.", note: "until = duração" },
+      { en: "I have to finish this by ten o'clock.", pt: "Eu tenho que terminar isso até as dez horas.", note: "by = prazo" },
       { en: "What time does she go to bed?", pt: "A que horas ela vai para a cama?" },
       { en: "He goes to bed at eleven forty-five.", pt: "Ele vai para a cama às onze e quarenta e cinco." },
-      { en: "The class starts at six twenty.", pt: "A aula começa às seis e vinte." },
+      { en: "The class starts at six twenty.", pt: "A aula começa às seis e vinte.", note: "at = horário exato" },
       { en: "We have until eleven fifty.", pt: "Nós temos até as onze e cinquenta." }
     ],
     exercises: [
@@ -109,7 +108,8 @@ export const lessons: LessonData[] = [
       { question: "A que horas ela vai para a cama?", answer: "What time does she go to bed" },
       { question: "Ele vai para a cama às onze e quarenta e cinco.", answer: "He goes to bed at eleven forty-five" },
       { question: "São quinze para as dez.", answer: "It's a quarter to ten" },
-      { question: "A aula começa às seis e vinte.", answer: "The class starts at six twenty" }
+      { question: "A aula começa às seis e vinte.", answer: "The class starts at six twenty" },
+      { question: "São dez em ponto.", answer: "It's ten o'clock" }
     ]
   },
   {
